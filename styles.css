@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: magenta;
+}
+
+.box {
+    background-color: darkorchid;
+    width: 100px;
+    height: 100px;
+}
+
+.box:hover {
+    background-color: coral;
+}
+
+.listThing {
+    width: 100%;
+    margin-top: 1rem;
+    padding-left: 0;
+}
+
+.listItem {
+    height: 2rem;
+    width: 100%;
+    background-color: cyan;
+}
+
+li.listItem:hover {
+    background-color: coral;
+}
+
+.listItem:nth-child(2n) {
+    background-color: white;
+}
+
+body {
+    margin: 0;
+}
